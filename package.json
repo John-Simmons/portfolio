@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://john-simmons.github.io/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -20,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "cp -R build/* ../John-Simmons.github.io/ && cd ../John-Simmons.github.io/ && git add . && git commit -m 'Deploy' && git push"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -50,7 +50,7 @@ class App extends Component {
             </div>
             <div className="a-color-swatch orange">
             </div>
-            <div className="a-color-swatch yellow">
+            <div className="a-color-swatch off-white">
             </div>
           </div>
         </header>
