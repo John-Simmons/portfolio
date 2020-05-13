@@ -1,0 +1,57 @@
+.App {
+    text-align: center;
+}
+
+.a-logo{
+  margin-bottom:32px;
+  margin-top: 96px;
+}
+
+.a-action-btns{
+  margin-top: 48px;
+}
+
+.a-action-btn{
+  display: inline-block;
+  margin-left: 32px;
+  margin-right: 32px;
+  color: #203342;
+  text-decoration: none;
+}
+
+.a-action-btn:hover{
+  text-decoration: underline;
+}
+
+.a-color-swatches{
+  width: 64px;
+  height: 22px;
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: all .2s ease-in-out;;
+}
+
+.a-color-swatches:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transform: scale(1.2);
+}
+
+.a-color-swatch{
+  height: 100%;
+  width: 33%;
+  display: inline-block;
+}
+
+.a-color-swatch.blue{
+  background-color: #203342;
+}
+
+.a-color-swatch.orange{
+  background-color: #DD6E42;
+}
+
+.a-color-swatch.yellow{
+  background-color: #E8DAB2;
+}
