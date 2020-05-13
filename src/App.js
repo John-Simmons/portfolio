@@ -45,7 +45,7 @@ class App extends Component {
             </a>
           </div>
 
-          <div data-tip="Designed and Build by John Simmons" className="a-color-swatches">
+          <div data-tip="Designed and Built by John Simmons" className="a-color-swatches">
             <div className="a-color-swatch blue">
             </div>
             <div className="a-color-swatch orange">
