@@ -1,60 +1,53 @@
 import React, {Component} from 'react';
 import './App.css';
 
-import logo from './assets/logo.png';
-import resume from './assets/JohnSimmonsResume.pdf';
-
-import 'font-awesome/css/font-awesome.min.css'
-
 import ReactTooltip from "react-tooltip";
 
+import AboutMe from "./components/AboutMe/AboutMe"
+import './components/AboutMe/AboutMe.css'
+import PortfolioList from "./components/PortfolioList/PortfolioList"
+import './components/PortfolioList/PortfolioList.css'
+import ColorSwatch from "./components/ColorSwatch/ColorSwatch"
+import './components/ColorSwatch/ColorSwatch.css'
+
 class App extends Component {
+
+  state = {
+        isAboutOpen: true,
+    }
+
+  toggleAbout = () => {
+    //const stateCopy = [...this.state];
+    if(this.state.isAboutOpen){
+      this.setState(
+        { isAboutOpen: false }
+      );
+    } else{
+      this.setState(
+        { isAboutOpen: true }
+      );
+    }
+  }
+
   render(){
     return (
       <div className="App">
-        <header className="a-header">
+        <AboutMe
+          isAboutOpen={this.state.isAboutOpen}
+          toggleAbout={this.toggleAbout}
+        ></AboutMe>
 
-          <div className="a-logo">
-            <img src={logo} width="128" alt='logo'/>
-          </div>
+        {!this.state.isAboutOpen && (
+          <PortfolioList></PortfolioList>
+        )}
 
-          <div className="a-info">
-            <h1 className="a-info-header">
-              John Simmons
-            </h1>
-            <p className="a-info-text">
-              Product Designer at Persado
-            </p>
-            <p className="a-info-text">
-              Currently Based in NYC
-            </p>
-          </div>
+        <ColorSwatch
+          position="cs-btm-r">
+        </ColorSwatch>
 
-          <div className="a-action-btns">
-            <a className="a-action-btn" href={resume} target='_blank' rel="noopener noreferrer">
-              <i className="fa fa-file fa-2x"></i>
-              <p className="a-action-btn-label">Resumé</p>
-            </a>
-            <a className="a-action-btn" href="https://www.linkedin.com/in/johnsimmonsnyc/" target='_blank' rel="noopener noreferrer">
-              <i className="fa fa-linkedin fa-2x"></i>
-              <p className="a-action-btn-label">Linkedin</p>
-            </a>
-            <a className="a-action-btn" href="mailto:jsimmons2705@gmail.com">
-              <i className="fa fa-envelope fa-2x"></i>
-              <p className="a-action-btn-label">Email</p>
-            </a>
-          </div>
-
-          <div data-tip="Designed and Built by John Simmons" className="a-color-swatches">
-            <div className="a-color-swatch blue">
-            </div>
-            <div className="a-color-swatch orange">
-            </div>
-            <div className="a-color-swatch off-white">
-            </div>
-          </div>
-        </header>
-        <ReactTooltip place="left" effect="solid"/>
+        <ReactTooltip
+        effect="solid"
+      />
       </div>
     );
   }

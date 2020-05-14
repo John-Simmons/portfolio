@@ -1,0 +1,84 @@
+.am-wrapper.sm{
+  text-align: left;
+  width: 100%;
+}
+
+.am-wrapper.bg{
+  text-align: center;
+  color: #203342;
+}
+
+.am-logo.bg{
+  margin-bottom:32px;
+  margin-top: 64px;
+}
+
+.am-logo.sm{
+  display: inline-block;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+.am-tray-icon{
+  color: #203342;
+  transition: all .2s ease-in-out;;
+}
+
+.am-tray-icon.open:hover{
+  transform: scale(1.2);
+}
+
+.am-tray-icon.closed{
+  display: inline-block;
+}
+
+.am-tray-icon.open{
+  margin-top: 96px;
+  cursor: pointer;
+}
+
+.am-tray-icon.open p{
+  margin-bottom: 8px;
+}
+
+.am-info-header.sm{
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.am-info{
+  color: #203342;
+}
+
+.am-info-header{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.am-info.sm{
+  display: inline-block;
+  float: right;
+  margin-top: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.am-info.sm .am-icon{
+  height: 24px;
+}
+
+.am-action-btns{
+  margin-top: 48px;
+}
+
+.am-action-btn{
+  display: inline-block;
+  margin-left: 32px;
+  margin-right: 32px;
+  color: #203342;
+  text-decoration: none;
+}
+
+.am-action-btn:hover{
+  text-decoration: underline;
+}
