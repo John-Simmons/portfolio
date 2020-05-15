@@ -59,6 +59,11 @@
   margin-bottom: 0px;
 }
 
+.am-info:hover .am-info-header.sm{
+  text-decoration: underline;
+  text-decoration-color: #DD6E42;
+}
+
 .am-info.sm{
   display: inline-block;
   float: right;
@@ -85,4 +90,5 @@
 
 .am-action-btn:hover{
   text-decoration: underline;
+  text-decoration-color: #DD6E42;
 }

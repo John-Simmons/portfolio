@@ -1,0 +1,40 @@
+.PortfolioItem{
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 96px;
+  cursor: pointer;
+}
+
+.pi-image{
+  height: 128px;
+  width: 128px;
+  margin-top: 8px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 8px;
+  transition: all .2s ease-in-out;
+
+  background-color: black;
+}
+
+.PortfolioItem:hover .pi-image{
+  margin-top:20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transform: scale(1.2);
+}
+
+.pi-info{
+  display: inline-block;
+  margin-left: 32px;
+  max-width: 640px;
+}
+
+.pi-info-header{
+  margin-top:0px;
+}
+
+.PortfolioItem:hover .pi-info-header{
+  text-decoration: underline;
+  text-decoration-color: #DD6E42;
+}

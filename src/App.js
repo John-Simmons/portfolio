@@ -9,11 +9,12 @@ import PortfolioList from "./components/PortfolioList/PortfolioList"
 import './components/PortfolioList/PortfolioList.css'
 import ColorSwatch from "./components/ColorSwatch/ColorSwatch"
 import './components/ColorSwatch/ColorSwatch.css'
+import './components/PortfolioItem/PortfolioItem.css'
 
 class App extends Component {
 
   state = {
-        isAboutOpen: true,
+        isAboutOpen: false,
     }
 
   toggleAbout = () => {
