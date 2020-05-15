@@ -11,12 +11,16 @@
 .am-logo.bg{
   margin-bottom:32px;
   margin-top: 64px;
+  height: 128px;
+  width: 128px;
 }
 
 .am-logo.sm{
   display: inline-block;
   margin-top: 16px;
   margin-left: 24px;
+  height: 64px;
+  width: 64px;
 }
 
 .am-tray-icon{
@@ -24,17 +28,17 @@
   transition: all .2s ease-in-out;;
 }
 
-.am-tray-icon.open:hover{
-  transform: scale(1.2);
-}
-
 .am-tray-icon.closed{
   display: inline-block;
 }
 
 .am-tray-icon.open{
-  margin-top: 96px;
+  margin-top: 48px;
   cursor: pointer;
+}
+
+.am-tray-icon.open:hover{
+  transform: scale(1.2);
 }
 
 .am-tray-icon.open p{

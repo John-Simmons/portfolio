@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo.png';
+import {ReactComponent as Logo} from '../../assets/logo.svg';
 import resume from '../../assets/JohnSimmonsResume.pdf';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,9 +11,7 @@ let aboutMe = null;
   if(props.isAboutOpen){
     aboutMe = (
       <div className="am-wrapper bg">
-        <div className="am-logo bg">
-          <img src={logo} width="128px" alt='logo'/>
-        </div>
+        <Logo className="am-logo bg"/>
 
         <div className="am-info">
           <h1 className="am-info-header">
@@ -53,9 +51,7 @@ let aboutMe = null;
   } else {
     aboutMe = (
       <div className="am-wrapper sm">
-        <div className="am-logo sm">
-          <img src={logo} width="64px" alt='logo'/>
-        </div>
+        <Logo className="am-logo sm"/>
 
         <div
           className="am-info sm"
