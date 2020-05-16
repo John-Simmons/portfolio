@@ -40,12 +40,15 @@ let aboutMe = null;
           </a>
         </div>
 
-        <FontAwesomeIcon
-        icon={'chevron-up'}
-        size="3x"
-        className="am-tray-icon open"
-        onClick={props.toggleAbout}
-        data-tip="Portfolio"/>
+        <div className='am-open-portfolio' onClick={props.toggleAbout}>
+          <FontAwesomeIcon
+          icon={'chevron-up'}
+          size="3x"
+          className="am-tray-icon open"/>
+
+        <p className="am-op-text">Portfolio</p>
+        </div>
+
       </div>
     );
   } else {
@@ -55,8 +58,7 @@ let aboutMe = null;
 
         <div
           className="am-info sm"
-          onClick={props.toggleAbout}
-          data-tip="About Me">
+          onClick={props.toggleAbout}>
           <h2 className="am-info-header sm">
             John Simmons
           </h2>

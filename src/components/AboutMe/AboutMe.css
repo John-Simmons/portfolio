@@ -32,13 +32,23 @@
   display: inline-block;
 }
 
-.am-tray-icon.open{
-  margin-top: 48px;
+.am-open-portfolio{
+  display: inline-block;
+  margin: auto;
   cursor: pointer;
 }
 
-.am-tray-icon.open:hover{
-  transform: scale(1.2);
+.am-tray-icon.open{
+  margin-top: 48px;
+}
+
+.am-open-portfolio:hover .am-tray-icon.open{
+    transform: scale(1.2);
+}
+
+.am-open-portfolio:hover .am-op-text{
+    text-decoration: underline;
+    text-decoration-color: #DD6E42;
 }
 
 .am-tray-icon.open p{

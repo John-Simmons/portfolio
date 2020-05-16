@@ -14,7 +14,7 @@ import './components/PortfolioItem/PortfolioItem.css'
 class App extends Component {
 
   state = {
-        isAboutOpen: false,
+        isAboutOpen: true,
     }
 
   toggleAbout = () => {

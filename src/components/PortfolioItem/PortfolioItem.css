@@ -12,10 +12,8 @@
   margin-top: 8px;
   display: inline-block;
   vertical-align: top;
-  border-radius: 8px;
+  border-radius: 16px;
   transition: all .2s ease-in-out;
-
-  background-color: black;
 }
 
 .PortfolioItem:hover .pi-image{
@@ -32,6 +30,7 @@
 
 .pi-info-header{
   margin-top:0px;
+  margin-bottom:0px;
 }
 
 .PortfolioItem:hover .pi-info-header{

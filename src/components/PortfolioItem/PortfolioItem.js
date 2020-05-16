@@ -4,7 +4,7 @@ const portfolioItem = (props) => {
 
 return (
     <div className="PortfolioItem">
-      <div className="pi-image"></div>
+      {props.image}
 
       <div className="pi-info">
         <h1 className="pi-info-header">{props.title}</h1>
