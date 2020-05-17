@@ -15,8 +15,10 @@ class App extends Component {
 
   state = {
         isAboutOpen: true,
+        isUnderConstruction: true
     }
 
+  //open or close the about me tray
   toggleAbout = () => {
     //const stateCopy = [...this.state];
     if(this.state.isAboutOpen){
@@ -39,7 +41,8 @@ class App extends Component {
         ></AboutMe>
 
         {!this.state.isAboutOpen && (
-          <PortfolioList></PortfolioList>
+          <PortfolioList
+            isUnderConstruction={this.state.isUnderConstruction}></PortfolioList>
         )}
 
         <ColorSwatch
