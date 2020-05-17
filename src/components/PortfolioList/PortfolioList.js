@@ -11,7 +11,7 @@ const portfolioList = (props) => {
   if(props.isUnderConstruction){
     portfolioList =(
       <div>
-          <FontAwesomeIcon className="pi-image" icon={'file'} size="5x"/>
+          <FontAwesomeIcon className="pi-image" icon={'tools'} size="5x"/>
           <h1>Under Construction</h1>
           <p>Nothing to see right now but check back later!</p>
       </div>
