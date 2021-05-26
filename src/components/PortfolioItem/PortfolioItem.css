@@ -1,31 +1,7 @@
 .PortfolioItem{
   text-align: left;
-  max-width: 800px;
-  margin: auto;
   margin-bottom: 96px;
   cursor: pointer;
-}
-
-.pi-image{
-  height: 128px;
-  width: 128px;
-  margin-top: 8px;
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 16px;
-  transition: all .2s ease-in-out;
-}
-
-.PortfolioItem:hover .pi-image{
-  margin-top:20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  transform: scale(1.2);
-}
-
-.pi-info{
-  display: inline-block;
-  margin-left: 32px;
-  max-width: 640px;
 }
 
 .pi-info-header{
@@ -33,7 +9,45 @@
   margin-bottom:0px;
 }
 
-.PortfolioItem:hover .pi-info-header{
-  text-decoration: underline;
-  text-decoration-color: #DD6E42;
+.pi-title{
+  display: inline-block;
+  max-width: 75%
+}
+
+.pi-company-role{
+  display: inline-block;
+  vertical-align: bottom;
+  float: right;
+
+  margin-top: 21.44px;
+}
+
+.pi-dot{
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  background-color: #222;
+  border-radius: 50%;
+
+  margin-bottom: 4px;
+}
+
+.pi-company{
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-right: 8px;
+}
+
+.pi-role{
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-left: 8px;
+}
+
+.pi-info{
+  display: inline-block;
+}
+
+.pi-see-more{
+  float: right;
 }

@@ -1,0 +1,50 @@
+.nb-wrapper{
+  display: block;
+  height: 112px;
+}
+
+.nb-logo{
+  text-align: left;
+  display: inline-block;
+
+  width: 96px;
+  height: 96px;
+
+  margin-left: 64px;
+  margin-top: 16px;
+
+  cursor: pointer;
+}
+
+.nb-nav-items{
+  display: inline-block;
+
+  font-weight: bold;
+  font-size: 20px;
+
+  margin-left: calc(25% - 160px);
+  margin-right: 25%;
+  margin-top: 76px;
+  vertical-align: top;
+}
+
+.nb-nav-item{
+  text-decoration: none;
+  color: #222;
+  margin-right: 64px;
+  cursor: pointer;
+  border-bottom: 4px solid transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.nb-nav-item.active{
+  border-bottom: 4px solid #222;
+}
+
+.nb-nav-item:hover{
+  border-bottom: 4px solid #ccc;
+}
+
+Link{
+  text-decoration: none;
+}

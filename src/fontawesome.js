@@ -5,7 +5,8 @@ import {
   faFile,
   faTools,
   faChevronDown,
-  faChevronUp
+  faChevronUp,
+  faLock
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -14,5 +15,6 @@ library.add(
   faFile,
   faTools,
   faChevronDown,
-  faChevronUp
+  faChevronUp,
+  faLock
 )
