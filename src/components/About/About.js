@@ -1,9 +1,11 @@
 import React from 'react';
 
-import NavBar from "../NavBar/NavBar"
-import '../NavBar/NavBar.css'
-import BasicInfo from "../BasicInfo/BasicInfo"
-import '../BasicInfo/BasicInfo.css'
+import NavBar from "../subcomponents/NavBar/NavBar"
+import '../subcomponents/NavBar/NavBar.css'
+import BasicInfo from "../subcomponents/BasicInfo/BasicInfo"
+import '../subcomponents/BasicInfo/BasicInfo.css'
+import AboutInfo from "../subcomponents/AboutInfo/AboutInfo"
+import '../subcomponents/AboutInfo/AboutInfo.css'
 
 const about = (props) => {
 
@@ -11,11 +13,15 @@ const about = (props) => {
 
   about = (
     <div>
-      <NavBar>
+      <NavBar
+        active="about">
       </NavBar>
 
       <BasicInfo>
       </BasicInfo>
+
+      <AboutInfo>
+      </AboutInfo>
     </div>
   );
 

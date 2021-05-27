@@ -1,12 +1,11 @@
 import React from 'react';
 
-import NavBar from "../NavBar/NavBar"
-import '../NavBar/NavBar.css'
-import BasicInfo from "../BasicInfo/BasicInfo"
-import '../BasicInfo/BasicInfo.css'
-import PortfolioList from "../PortfolioList/PortfolioList"
-import '../PortfolioList/PortfolioList.css'
-import '../PortfolioItem/PortfolioItem.css'
+import NavBar from "../subcomponents/NavBar/NavBar"
+import '../subcomponents/NavBar/NavBar.css'
+import BasicInfo from "../subcomponents/BasicInfo/BasicInfo"
+import '../subcomponents/BasicInfo/BasicInfo.css'
+import PortfolioList from "../subcomponents/PortfolioList/PortfolioList"
+import '../subcomponents/PortfolioList/PortfolioList.css'
 
 const work = (props) => {
 
@@ -14,7 +13,8 @@ const work = (props) => {
 
   work = (
     <div>
-      <NavBar>
+      <NavBar
+        active="work">
       </NavBar>
 
       <BasicInfo>

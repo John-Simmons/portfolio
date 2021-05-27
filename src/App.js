@@ -26,13 +26,6 @@ class App extends Component {
           <Route path="/" component={Work} exact />
           <Route path="/about" component={About} />
         </Switch>
-
-        <ReactTooltip
-        effect="solid"
-        />
-        <ColorSwatch
-          position="cs-btm-r">
-        </ColorSwatch>
       </div>
     );
   }
