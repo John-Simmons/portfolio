@@ -7,9 +7,9 @@ const navBar = (props) => {
   let workClass = "nb-nav-item";
   let aboutClass = "nb-nav-item";
 
-  if(props.active == "work"){
+  if(props.active === "work"){
     workClass = "nb-nav-item active";
-  }else if (props.active == "about"){
+  }else if (props.active === "about"){
     aboutClass = "nb-nav-item active";
   }
 

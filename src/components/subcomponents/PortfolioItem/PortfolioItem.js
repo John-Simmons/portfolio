@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const portfolioItem = (props) => {
 
@@ -22,7 +23,9 @@ const portfolioItem = (props) => {
 
           <p>{props.description}</p>
 
-          <btn className="btn-primary pi-see-more">Read More</btn>
+          <Link to={props.route}>
+            <btn className="btn-primary pi-see-more">Read More</btn>
+          </Link>
 
         </div>
       </div>

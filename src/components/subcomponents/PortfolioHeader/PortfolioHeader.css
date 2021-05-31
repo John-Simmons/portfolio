@@ -1,0 +1,10 @@
+.PortfolioHeader{
+  text-align: left;
+  margin-top: 32px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.ph-title{
+  max-width: 75%
+}

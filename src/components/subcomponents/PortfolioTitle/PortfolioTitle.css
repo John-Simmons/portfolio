@@ -1,19 +1,21 @@
-.PortfolioItem{
+.PortfolioTitle{
   text-align: left;
-  margin-bottom: 96px;
+  margin-top: 64px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
-.pi-info-header{
+.pt-info-header{
   margin-top:0px;
   margin-bottom:0px;
 }
 
-.pi-title{
+.pt-title{
   display: inline-block;
   max-width: 75%
 }
 
-.pi-company-role{
+.pt-company-role{
   display: inline-block;
   vertical-align: bottom;
   float: right;
@@ -21,7 +23,7 @@
   margin-top: 21.44px;
 }
 
-.pi-dot{
+.pt-dot{
   display: inline-block;
   height: 4px;
   width: 4px;
@@ -31,22 +33,18 @@
   margin-bottom: 4px;
 }
 
-.pi-company{
+.pt-company{
   display: inline-block;
   margin-bottom: 0px;
   margin-right: 8px;
 }
 
-.pi-role{
+.pt-role{
   display: inline-block;
   margin-bottom: 0px;
   margin-left: 8px;
 }
 
-.pi-info{
+.pt-info{
   display: inline-block;
-}
-
-.pi-see-more{
-  float: right;
 }

@@ -1,0 +1,11 @@
+.PortfolioSubHeader{
+  text-align: left;
+  margin-top: 32px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.psh-title{
+  max-width: 75%;
+  color: #666;
+}
