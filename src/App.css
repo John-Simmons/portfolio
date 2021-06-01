@@ -6,14 +6,13 @@
 .btn-primary{
   background-color: #222;
   color: white;
-  border-radius: 4px;
   padding: 12px 24px 12px 24px;
   font-size: 16px;
   font-weight: bold;
-  transition: all 0.3s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 
 .btn-primary:hover{
-  background-color: #ccc;
   color: #222;
+  background-color: #ccc;
 }

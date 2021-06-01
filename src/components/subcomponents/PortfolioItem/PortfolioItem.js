@@ -1,7 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const portfolioItem = (props) => {
+
+  let lockIcon = null;
+
+  if(props.locked){
+    lockIcon = (<FontAwesomeIcon icon={"lock"} size="1x" className="pi-lock-icon"/>);
+  }else{
+    lockIcon = "";
+  }
 
   return (
       <div className="PortfolioItem">
@@ -24,7 +33,7 @@ const portfolioItem = (props) => {
           <p>{props.description}</p>
 
           <Link to={props.route}>
-            <btn className="btn-primary pi-see-more">Read More</btn>
+            <btn className="btn-primary pi-see-more">Read More{lockIcon}</btn>
           </Link>
 
         </div>
