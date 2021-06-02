@@ -16,23 +16,19 @@ const portfolioItem = (props) => {
       <div className="PortfolioItem">
         <div className="pi-info">
 
-          <div className="pi-info-header">
+          <h1 className="pi-title">{props.title}</h1>
 
-            <h1 className="pi-title">{props.title}</h1>
+          <div className="pi-company-role">
 
-            <div className="pi-company-role">
-
-              <p className="pi-company">{props.company}</p>
-              <div className="pi-dot"></div>
-              <p className="pi-role">{props.role}</p>
-
-            </div>
+            <p className="pi-company">{props.company}</p>
+            <div className="pi-dot"></div>
+            <p className="pi-role">{props.role}</p>
 
           </div>
 
           <p>{props.description}</p>
 
-          <Link to={props.route}>
+          <Link to={props.route} className="pi-btn-wrapper">
             <btn className="btn-primary pi-see-more">Read More{lockIcon}</btn>
           </Link>
 

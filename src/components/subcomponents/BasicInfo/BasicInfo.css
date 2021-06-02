@@ -1,11 +1,42 @@
-.bi-wrapper{
-  display: block;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 96px;
+@media screen and (min-width: 800px){
+  .bi-wrapper{
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 96px;
+  }
+
+  .bi-name{
+    font-size: 48px;
+    font-weight: bolder;
+  }
 }
 
-.bi-name{
-  font-size: 48px;
-  font-weight: bolder;
+@media screen and (min-width: 650px) and (max-width: 799px){
+  .bi-wrapper{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 64px;
+  }
+
+  .bi-name{
+    font-size: 48px;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: 649px){
+  .bi-wrapper{
+    display: block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 64px;
+  }
+
+  .bi-name{
+    font-size: 48px;
+    font-weight: bolder;
+  }
 }
