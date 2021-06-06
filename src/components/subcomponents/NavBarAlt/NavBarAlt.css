@@ -1,46 +1,97 @@
-.nba-wrapper{
-  display: block;
-  height: 112px;
+@media screen and (min-width: 1200px){
+  .nba-wrapper{
+    display: block;
+    height: 112px;
+  }
+
+  .nba-logo{
+    text-align: left;
+    display: inline-block;
+
+    width: 96px;
+    height: 96px;
+
+    margin-left: 64px;
+    margin-top: 16px;
+
+    cursor: pointer;
+  }
+
+  .nba-nav-items{
+    display: inline-block;
+
+    font-weight: bold;
+    font-size: 20px;
+
+    margin-left: calc(25% - 160px);
+    margin-right: 25%;
+    margin-top: 76px;
+    vertical-align: top;
+  }
+
+  .nba-nav-item{
+    text-decoration: none;
+    color: #222;
+    margin-right: 64px;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s ease 0s;
+  }
+
+  .nba-nav-item:hover{
+    border-bottom: 4px solid #ccc;
+  }
+
+  Link{
+    text-decoration: none;
+  }
 }
 
-.nba-logo{
-  text-align: left;
-  display: inline-block;
+@media screen and (min-width: 650px) and (max-width: 1199px){
+  .nba-wrapper{
+    display: block;
+    height: 112px;
+  }
 
-  width: 96px;
-  height: 96px;
+  .nba-logo{
+    text-align: left;
+    display: inline-block;
 
-  margin-left: 64px;
-  margin-top: 16px;
+    width: 64px;
+    height: 64px;
 
-  cursor: pointer;
-}
+    margin-left: 32px;
+    margin-top: 16px;
 
-.nba-nav-items{
-  display: inline-block;
+    cursor: pointer;
+  }
 
-  font-weight: bold;
-  font-size: 20px;
+  .nba-nav-items{
+    display: inline-block;
 
-  margin-left: calc(25% - 160px);
-  margin-right: 25%;
-  margin-top: 76px;
-  vertical-align: top;
-}
+    font-weight: bold;
+    font-size: 16px;
 
-.nba-nav-item{
-  text-decoration: none;
-  color: #222;
-  margin-right: 64px;
-  cursor: pointer;
-  border-bottom: 4px solid transparent;
-  transition: all 0.3s ease 0s;
-}
+    margin-left: calc(20% - 96px);
+    margin-right: 20%;
+    margin-top: 44px;
+    vertical-align: top;
+  }
 
-.nba-nav-item:hover{
-  border-bottom: 4px solid #ccc;
-}
+  .nba-nav-item{
+    text-decoration: none;
+    color: #222;
+    margin-right: 64px;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s ease 0s;
+  }
 
-Link{
-  text-decoration: none;
+  .nba-nav-item:hover{
+    border-bottom: 4px solid #ccc;
+  }
+
+  Link{
+    text-decoration: none;
+  }
 }

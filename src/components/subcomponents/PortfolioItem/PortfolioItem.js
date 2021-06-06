@@ -26,7 +26,7 @@ const portfolioItem = (props) => {
 
           </div>
 
-          <p>{props.description}</p>
+          <p className="pi-desc">{props.description}</p>
 
           <Link to={props.route} className="pi-btn-wrapper">
             <btn className="btn-primary pi-see-more">Read More{lockIcon}</btn>

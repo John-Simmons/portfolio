@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1200px){
   .PortfolioList{
     margin-left: 25%;
     margin-right: 25%;
@@ -7,7 +7,7 @@
   }
 }
 
-@media screen and (min-width: 650px) and (max-width: 799px){
+@media screen and (min-width: 650px) and (max-width: 1199px){
   .PortfolioList{
     margin-left: 20%;
     margin-right: 20%;
