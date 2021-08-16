@@ -7,8 +7,6 @@ const portfolioSubHeader = (props) => {
 
           <h4 className="psh-title">{props.title}</h4>
 
-          <p>{props.description}</p>
-
       </div>
   )
 }

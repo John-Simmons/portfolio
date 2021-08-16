@@ -6,21 +6,15 @@ const portfolioTitle = (props) => {
       <div className="PortfolioTitle">
         <div className="pt-info">
 
-          <div className="pt-info-header">
+          <h1 className="pt-title">{props.title}</h1>
 
-            <h1 className="pt-title">{props.title}</h1>
+          <div className="pt-company-role">
 
-            <div className="pt-company-role">
-
-              <p className="pt-company">{props.company}</p>
-              <div className="pt-dot"></div>
-              <p className="pt-role">{props.role}</p>
-
-            </div>
+            <p className="pt-company">{props.company}</p>
+            <div className="pt-dot"></div>
+            <p className="pt-role">{props.role}</p>
 
           </div>
-
-          <p>{props.description}</p>
 
         </div>
       </div>

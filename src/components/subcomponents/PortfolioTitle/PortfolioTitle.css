@@ -1,26 +1,6 @@
-.PortfolioTitle{
-  text-align: left;
-  margin-top: 64px;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.pt-info-header{
-  margin-top:0px;
-  margin-bottom:0px;
-}
-
 .pt-title{
   display: inline-block;
-  max-width: 75%
-}
-
-.pt-company-role{
-  display: inline-block;
-  vertical-align: bottom;
-  float: right;
-
-  margin-top: 21.44px;
+  margin-bottom: 0px;
 }
 
 .pt-dot{
@@ -47,4 +27,22 @@
 
 .pt-info{
   display: inline-block;
+}
+
+@media screen and (min-width: 650px){
+  .PortfolioTitle{
+    margin-top: 48px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 649px){
+  .PortfolioTitle{
+    margin-top: 64px;
+    text-align: left;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
 }

@@ -1,9 +1,14 @@
-.PortfolioHeader{
-  text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
+@media screen and (min-width: 650px){
+  .PortfolioHeader{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
-
-.ph-title{
-  max-width: 75%
+@media screen and (max-width: 649px){
+  .PortfolioHeader{
+    text-align: left;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
 }

@@ -1,3 +1,19 @@
 .pi1-wrapper{
   margin-bottom: 120px;
 }
+
+@media screen and (min-width: 650px){
+  .pi1-paragraph{
+     font-size: 13px;
+     margin-left: 20%;
+     margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 649px){
+  .pi1-paragraph{
+     font-size: 13px;
+     margin-left: 64px;;
+     margin-right: 64px;
+  }
+}
