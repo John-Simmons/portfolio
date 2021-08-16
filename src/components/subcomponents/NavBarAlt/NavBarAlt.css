@@ -1,3 +1,11 @@
+.nba-nav-item:hover{
+  border-bottom: 4px solid #ccc;
+}
+
+Link{
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1200px){
   .nba-wrapper{
     display: block;
@@ -36,14 +44,6 @@
     cursor: pointer;
     border-bottom: 4px solid transparent;
     transition: all 0.3s ease 0s;
-  }
-
-  .nba-nav-item:hover{
-    border-bottom: 4px solid #ccc;
-  }
-
-  Link{
-    text-decoration: none;
   }
 }
 
@@ -86,14 +86,6 @@
     border-bottom: 4px solid transparent;
     transition: all 0.3s ease 0s;
   }
-
-  .nba-nav-item:hover{
-    border-bottom: 4px solid #ccc;
-  }
-
-  Link{
-    text-decoration: none;
-  }
 }
 
 @media screen and (max-width: 648px){
@@ -130,13 +122,5 @@
     cursor: pointer;
     border-bottom: 4px solid transparent;
     transition: all 0.3s ease 0s;
-  }
-
-  .nba-nav-item:hover{
-    border-bottom: 4px solid #ccc;
-  }
-
-  Link{
-    text-decoration: none;
   }
 }

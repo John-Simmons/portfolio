@@ -1,15 +1,39 @@
+.PortfolioItem{
+  text-align: left;
+  margin-bottom: 96px;
+}
+
+.pi-info-header{
+  margin-top:0px;
+  margin-bottom:0px;
+  height: 64px;
+}
+
+.pi-company{
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-right: 8px;
+}
+
+.pi-role{
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-left: 8px;
+}
+
+.pi-info{
+  display: inline-block;
+}
+
+.pi-desc{
+  font-size: 13px;
+}
+
+.pi-lock-icon{
+  margin-left: 8px;
+}
+
 @media screen and (min-width: 650px){
-  .PortfolioItem{
-    text-align: left;
-    margin-bottom: 96px;
-  }
-
-  .pi-info-header{
-    margin-top:0px;
-    margin-bottom:0px;
-    height: 64px;
-  }
-
   .pi-title{
     display: inline-block;
     margin-bottom:0px;
@@ -23,26 +47,6 @@
     border-radius: 50%;
 
     margin-bottom: 4px;
-  }
-
-  .pi-company{
-    display: inline-block;
-    margin-bottom: 0px;
-    margin-right: 8px;
-  }
-
-  .pi-role{
-    display: inline-block;
-    margin-bottom: 0px;
-    margin-left: 8px;
-  }
-
-  .pi-info{
-    display: inline-block;
-  }
-
-  .pi-desc{
-    font-size: 13px;
   }
 
   .pi-see-more{
@@ -50,27 +54,13 @@
     float: right;
     margin-top: 32px;
   }
-
-  .pi-lock-icon{
-    margin-left: 8px;
-  }
 }
 
 @media screen and (max-width: 649px){
-  .PortfolioItem{
-    text-align: left;
-    margin-bottom: 96px;
-  }
-
-  .pi-info-header{
-    margin-top:0px;
-    margin-bottom:0px;
-    height: 64px;
-  }
-
   .pi-title{
     display: inline-block;
     font-size: 24px;
+    margin-bottom:0px;
   }
 
   .pi-dot{
@@ -83,34 +73,10 @@
     margin-bottom: 4px;
   }
 
-  .pi-company{
-    display: inline-block;
-    margin-bottom: 0px;
-    margin-right: 8px;
-  }
-
-  .pi-role{
-    display: inline-block;
-    margin-bottom: 0px;
-    margin-left: 8px;
-  }
-
-  .pi-info{
-    display: inline-block;
-  }
-
-  .pi-desc{
-    font-size: 13px;
-  }
-
   .pi-see-more{
     display: inline-block;
     margin-top: 32px;
     width: calc(100% - 48px);
-  }
-
-  .pi-lock-icon{
-    margin-left: 8px;
   }
 
   .pi-btn-wrapper{
