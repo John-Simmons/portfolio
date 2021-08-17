@@ -7,13 +7,13 @@ const basicInfo = (props) => {
   basicInfo = (
     <div className="bi-wrapper">
 
-      <h2 className="bi-name ">
+      <h1 className="bi-name ">
         John Simmons
-      </h2>
-      <p className="bi-info ">
+      </h1>
+      <p className="bi-info subtext">
         Product Designer @ Persado
       </p>
-      <p className="bi-info ">
+      <p className="bi-info subtext">
         Currently Based in NYC
       </p>
 

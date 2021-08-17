@@ -2,22 +2,22 @@ import React from 'react';
 import resume from '../../../assets/JohnSimmonsResume.pdf';
 
 let resumeHtml = (<a className="ai-item-wrap" href={resume} target='_blank' rel="noopener noreferrer">
-  <h1 className="ai-item">Resume</h1>
+  <h3 className="ai-item">Resume</h3>
 </a>
 );
 
 let linkedinHtml= (<a className="ai-item-wrap" href="https://www.linkedin.com/in/johnsimmonsnyc/" target='_blank' rel="noopener noreferrer">
-  <h1 className="ai-item">LinkedIn</h1>
+  <h3 className="ai-item">LinkedIn</h3>
 </a>
 );
 
 let emailHtml = (<a className="ai-item-wrap" href="mailto:jsimmons2705@gmail.com">
-  <h1 className="ai-item">Email</h1>
+  <h3 className="ai-item">Email</h3>
 </a>
 );
 
 let githubHtml= (<a className="ai-item-wrap" href="https://github.com/John-Simmons/portfolio" target='_blank' rel="noopener noreferrer">
-  <h1 className="ai-item">Github</h1>
+  <h3 className="ai-item">Github</h3>
 </a>
 );
 

@@ -1,0 +1,25 @@
+.cs-content{
+  margin-top: 96px;
+  margin-bottom: 120px;
+}
+
+@media screen and (min-width: 1200px){
+  .cs-content{
+     margin-left: 25%;
+     margin-right: 25%;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1199px){
+  .cs-content{
+     margin-left: 20%;
+     margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 649px){
+  .cs-content{
+     margin-left: 64px;;
+     margin-right: 64px;
+  }
+}

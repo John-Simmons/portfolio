@@ -7,8 +7,8 @@ import Work from "./components/Work/Work"
 import './components/Work/Work.css'
 import About from "./components/About/About"
 import './components/About/About.css'
-import PortfolioItem1 from "./components/PortfolioItem1/PortfolioItem1"
-import './components/PortfolioItem1/PortfolioItem1.css'
+import CaseStudy from "./components/CaseStudy/CaseStudy"
+import './components/CaseStudy/CaseStudy.css'
 
 class App extends Component {
 
@@ -22,7 +22,7 @@ class App extends Component {
           <Switch>
             <Route path="/" component={Work} exact />
             <Route path="/about" component={About} />
-            <Route path="/portfolio-item-1" component={PortfolioItem1} />
+            <Route path="/case-study" component={CaseStudy} />
           </Switch>
       </div>
     );

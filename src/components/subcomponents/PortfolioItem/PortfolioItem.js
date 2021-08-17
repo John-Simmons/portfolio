@@ -16,7 +16,7 @@ const portfolioItem = (props) => {
       <div className="PortfolioItem">
         <div className="pi-info">
 
-          <h1 className="pi-title">{props.title}</h1>
+          <h3 className="pi-title">{props.title}</h3>
 
           <div className="pi-company-role">
 
