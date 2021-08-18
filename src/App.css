@@ -21,14 +21,17 @@
 h1{
   font-size: 48px;
   weight: bolder;
+  color: #222;
 }
 
 h2{
   font-size: 39px;
+  color: #222;
 }
 
 h3{
   font-size: 31.25px;
+  color: #222;
 }
 
 h3.subheader{
@@ -38,6 +41,7 @@ h3.subheader{
 p{
   font-size: 20px;
   line-height: 32px;
+  color: #222;
 }
 
 p.subtext{
