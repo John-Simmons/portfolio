@@ -13,7 +13,7 @@ const portfolioList = (props) => {
         role="Product Designer"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         locked={true}
-        route="/case-study"/>
+        route="/password"/>
 
       <PortfolioItem
         title="Portfolio Item 2"
@@ -21,7 +21,7 @@ const portfolioList = (props) => {
         role="Product Design"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         locked={false}
-        route="/"/>
+        route="/case-study"/>
 
       <PortfolioItem
         title="Portfolio Item 3"
