@@ -32,6 +32,12 @@ export default function Password(props) {
 
   }
 
+  function handleChange(e){
+    e.preventDefault()
+
+    return setError('')
+  }
+
   return(
     <div className="pass-wrapper">
       <ScrollToTopOnMount />
@@ -42,7 +48,7 @@ export default function Password(props) {
       <div className="pass-content">
         <h1 className="pass-title">Password</h1>
         <form onSubmit={handleSubmit}>
-          <input className="pass-input {error && pass-input-error}" type="password" ref={passRef} name="password" />
+          <input className="pass-input" type="password" ref={passRef} name="password" onChange={handleChange} />
           {error && <div className="pass-error">Incorrect Password</div>}
           <input className="pass-btn" type="submit" value="Submit" />
         </form>
