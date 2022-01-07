@@ -1,33 +1,24 @@
 import React from 'react';
 import resume from '../../../assets/JohnSimmonsResume.pdf';
 
-let resumeHtml = (<a className="ai-item-wrap" href={resume} target='_blank' rel="noopener noreferrer">
-  <h3 className="ai-item">Resume</h3>
-</a>
-);
-
-let linkedinHtml= (<a className="ai-item-wrap" href="https://www.linkedin.com/in/johnsimmonsnyc/" target='_blank' rel="noopener noreferrer">
-  <h3 className="ai-item">LinkedIn</h3>
-</a>
-);
-
-let emailHtml = (<a className="ai-item-wrap" href="mailto:jsimmons2705@gmail.com">
-  <h3 className="ai-item">Email</h3>
-</a>
-);
-
-let githubHtml= (<a className="ai-item-wrap" href="https://github.com/John-Simmons/portfolio" target='_blank' rel="noopener noreferrer">
-  <h3 className="ai-item">Github</h3>
-</a>
-);
-
 const aboutInfo = (props) => {
   let aboutInfo = null;
 
   aboutInfo=(
     <div >
       <p className="ai-paragraph">
-        If you would like to learn more about me, checkout my {resumeHtml}.<br/>Message me on {linkedinHtml} or shoot me an {emailHtml} to say hi.<br/>Go to my {githubHtml} to see the code I wrote to build this site.
+        <a className="ai-item-wrap" href={resume} target='_blank' rel="noopener noreferrer">
+        <h3 className="ai-item">Resume</h3>
+        </a>
+        <a className="ai-item-wrap" href="https://www.linkedin.com/in/johnsimmonsnyc/" target='_blank' rel="noopener noreferrer">
+        <h3 className="ai-item">LinkedIn</h3>
+        </a>
+        <a className="ai-item-wrap" href="mailto:jsimmons2705@gmail.com">
+          <h3 className="ai-item">Email</h3>
+        </a>
+        <a className="ai-item-wrap" href="https://github.com/John-Simmons/portfolio" target='_blank' rel="noopener noreferrer">
+          <h3 className="ai-item">Github</h3>
+        </a>
       </p>
 
     </div>

@@ -22,7 +22,7 @@ export default function Password(props) {
   function handleSubmit(e){
     e.preventDefault()
 
-    if (passRef.current.value !== "Jo2Si7Au05!") {
+    if (passRef.current.value !== "Simmons123!") {
       return setError('Incorrect Password')
     }
 
