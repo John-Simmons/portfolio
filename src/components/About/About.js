@@ -7,12 +7,16 @@ import '../subcomponents/BasicInfo/BasicInfo.css'
 import AboutInfo from "../subcomponents/AboutInfo/AboutInfo"
 import '../subcomponents/AboutInfo/AboutInfo.css'
 
+import ScrollToTopOnMount from "../ScrollToTopOnMount/ScrollToTopOnMount"
+
 const about = (props) => {
 
   let about = null;
 
   about = (
     <div>
+      <ScrollToTopOnMount />
+
       <NavBar
         active="about">
       </NavBar>

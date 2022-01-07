@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import PrivateRoute from "./PrivateRoute"
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -9,6 +10,8 @@ import About from "./components/About/About"
 import './components/About/About.css'
 import CaseStudy from "./components/CaseStudy/CaseStudy"
 import './components/CaseStudy/CaseStudy.css'
+import Password from "./components/Password/Password"
+import './components/Password/Password.css'
 
 class App extends Component {
 
@@ -22,7 +25,8 @@ class App extends Component {
           <Switch>
             <Route path="/" component={Work} exact />
             <Route path="/about" component={About} />
-            <Route path="/case-study" component={CaseStudy} />
+            <PrivateRoute path="/case-study" component={CaseStudy} />
+            <Route path="/password" component={Password}/>
           </Switch>
       </div>
     );

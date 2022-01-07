@@ -19,6 +19,9 @@ Link{
   .nb-logo{
     text-align: left;
     display: inline-block;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 
     width: 96px;
     height: 96px;
@@ -35,7 +38,7 @@ Link{
     font-weight: bold;
     font-size: 20px;
 
-    margin-left: calc(25% - 160px);
+    margin-left: 25%;
     margin-right: 25%;
     margin-top: 76px;
     vertical-align: top;
@@ -59,6 +62,9 @@ Link{
   .nb-logo{
     text-align: left;
     display: inline-block;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 
     width: 64px;
     height: 64px;
@@ -73,7 +79,7 @@ Link{
     display: inline-block;
     text-align: center;
 
-    margin-left: calc(20% - 96px);
+    margin-left: 20%;
     margin-right: 20%;
 
     font-weight: bold;

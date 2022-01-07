@@ -7,6 +7,8 @@ import { BrowserRouter } from 'react-router-dom';
 
 import './fontawesome.js'
 
+localStorage.setItem('js-port-auth', false);
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
