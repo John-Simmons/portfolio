@@ -1,31 +1,19 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom'
 
-const basicInfo = (props) => {
+export default function BasicInfo(props) {
+  const location = useLocation();
+  let b_info = null;
 
-  let basicInfo = null;
+  if(location.pathname === "/about"){
+    b_info ="I am a detail-oriented product designer, with a background in software engineering, who uses creativity and analytical skill to bring ideas into the real world. As a dedicated lifelong learner, with strong communication skills and a passion for discovering how people think about the world, I seek to solve meaningful problems in thoughtful and insightful ways.";
+  }
 
-  basicInfo = (
+  return(
     <div className="bi-wrapper">
-
-      <h1 className="bi-name ">
-        John Simmons
-      </h1>
-      <p className="bi-info subtext">
-        Product Designer @ Persado
-      </p>
-      <p className="bi-info subtext">
-        Currently Based in NYC
-      </p>
-
-
+      <h1 className="bi-name">John Simmons</h1>
+      <p className="bi-info subtext">Product Designer @ Persado | NYC</p>
+      <p className="bi-info">{b_info}</p>
     </div>
-  );
-
-  return (
-      <div className="BasicInfo">
-        {basicInfo}
-      </div>
   )
 }
-
-export default basicInfo;
