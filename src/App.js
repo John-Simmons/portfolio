@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import PrivateRoute from "./PrivateRoute"
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -24,7 +25,7 @@ class App extends Component {
           <Switch>
             <Route path="/" component={Work} exact />
             <Route path="/about" component={About} />
-            <Route path="/case-study" component={CaseStudy} />
+            <PrivateRoute path="/case-study" component={CaseStudy} />
             <Route path="/password" component={Password}/>
           </Switch>
       </div>

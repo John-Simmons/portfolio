@@ -5,11 +5,9 @@ import '../subcomponents/NavBarAlt/NavBarAlt.css'
 
 import ScrollToTopOnMount from "../ScrollToTopOnMount/ScrollToTopOnMount"
 
-const caseStudy = (props) => {
+export default function Password() {
 
-  let caseStudy = null;
-
-  caseStudy = (
+  return (
     <div className="cs-wrapper">
       <ScrollToTopOnMount />
 
@@ -47,13 +45,5 @@ const caseStudy = (props) => {
       </div>
 
     </div>
-  );
-
-  return (
-      <div className="CaseStudy">
-        {caseStudy}
-      </div>
   )
 }
-
-export default caseStudy;
