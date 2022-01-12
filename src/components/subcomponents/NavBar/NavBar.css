@@ -1,9 +1,9 @@
 .nb-nav-item.active{
-  border-bottom: 4px solid #222;
+  border-bottom: 4px solid #ffbf00;
 }
 
 .nb-nav-item:hover{
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid #484a47;
 }
 
 Link{

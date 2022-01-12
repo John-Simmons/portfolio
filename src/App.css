@@ -1,11 +1,6 @@
-.a-color-swatch{
-  z-index: 100;
-  color: #203342;
-}
-
 .btn-primary{
-  background-color: #222;
-  color: white;
+  background-color: #ffbf00;
+  color: #222;
   padding: 12px 24px 12px 24px;
   font-size: 16px;
   font-weight: bold;
@@ -14,8 +9,8 @@
 }
 
 .btn-primary:hover{
-  color: #222;
-  background-color: #ccc;
+  color: #fff;
+  background-color: #484a47;
 }
 
 h1{
@@ -35,7 +30,7 @@ h3{
 }
 
 h3.subheader{
-  color: #666;
+  color: #484a47;
 }
 
 p{
@@ -45,5 +40,5 @@ p{
 }
 
 p.subtext{
-  color: #666;
+  color: #484a47;
 }
