@@ -1,4 +1,10 @@
+.ai-bio{
+  border-left: 8px solid #ffbf00;
+  padding-left: 16px;
+}
+
 .ai-item{
+  padding-bottom: 4px;
   border-bottom: 4px solid transparent;
   transition: all 0.3s ease 0s;
   display: inline-block;

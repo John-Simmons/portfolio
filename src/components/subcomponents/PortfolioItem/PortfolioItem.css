@@ -9,6 +9,16 @@
   height: 64px;
 }
 
+.pi-title-cr-wrap{
+  border-left: 8px solid #ffbf00;
+  padding-left: 16px;
+  padding-bottom: 8px;
+}
+
+.pi-title{
+  margin-top: 8px;
+}
+
 .pi-company{
   display: inline-block;
   margin-bottom: 0px;

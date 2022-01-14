@@ -3,6 +3,20 @@
   margin-bottom: 120px;
 }
 
+.cs-title{
+  border-left: 8px solid #ffbf00;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.cs-header{
+  border-left: 8px solid #ffbf00;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 @media screen and (min-width: 1200px){
   .cs-content{
      margin-left: 25%;

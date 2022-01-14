@@ -1,9 +1,13 @@
+.nb-nav-item{
+  padding-bottom: 4px;
+}
+
 .nb-nav-item.active{
-  border-bottom: 4px solid #ffbf00;
+  border-bottom: 4px solid #484a47;
 }
 
 .nb-nav-item:hover{
-  border-bottom: 4px solid #484a47;
+  border-bottom: 4px solid #ffbf00;
 }
 
 Link{
