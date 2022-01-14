@@ -1,3 +1,7 @@
+.nba-nav-item{
+  padding-bottom: 4px;
+}
+
 .nba-nav-item:hover{
   border-bottom: 4px solid #ffbf00;
 }
