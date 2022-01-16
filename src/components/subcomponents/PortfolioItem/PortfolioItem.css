@@ -1,6 +1,6 @@
 .PortfolioItem{
   text-align: left;
-  margin-bottom: 96px;
+  margin-bottom: 120px;
 }
 
 .pi-info-header{
@@ -9,46 +9,28 @@
   height: 64px;
 }
 
-.pi-title-cr-wrap{
-  border-left: 8px solid #ffbf00;
-  padding-left: 16px;
-  padding-bottom: 8px;
-}
-
-.pi-title{
-  margin-top: 8px;
+.pi-company-role{
+  margin-top: 4px;
 }
 
 .pi-company{
   display: inline-block;
-  margin-bottom: 0px;
+  margin: 0px;
   margin-right: 8px;
 
   font-size: 16px;
-  line-height: 24px;
 
-  color: #fff;
-  background-color: #222;
-  border-radius: 100px;
-
-  padding-left: 16px;
-  padding-right: 16px;
+  color: #484a47;
 }
 
 .pi-role{
   display: inline-block;
-  margin-bottom: 0px;
+  margin: 0px;
   margin-left: 8px;
 
   font-size: 16px;
-  line-height: 24px;
 
-  color: #fff;
-  background-color: #222;
-  border-radius: 100px;
-
-  padding-left: 16px;
-  padding-right: 16px;
+  color: #484a47;
 }
 
 .pi-info{
@@ -57,6 +39,18 @@
 
 .pi-lock-icon{
   margin-left: 8px;
+}
+
+.pi-see-more{
+  display: inline-block;
+  float: right;
+}
+
+.pi-desc{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-left: 8px solid #ffbf00;
+  padding-left: 16px;
 }
 
 @media screen and (min-width: 650px){
@@ -73,12 +67,6 @@
     border-radius: 50%;
 
     margin-bottom: 4px;
-  }
-
-  .pi-see-more{
-    display: inline-block;
-    float: right;
-    margin-top: 16px;
   }
 }
 
@@ -100,13 +88,17 @@
   }
 
   .pi-see-more{
-    display: inline-block;
-    margin-top: 16px;
     width: calc(100% - 48px);
   }
 
   .pi-btn-wrapper{
     text-align: center;
+  }
+
+  .pi-desc{
+    margin-bottom: 16px;
+    border-left: none;
+    padding-left: 0px;
   }
 
 }
