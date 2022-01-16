@@ -1,8 +1,6 @@
 import React from 'react';
 import PortfolioItem from "../PortfolioItem/PortfolioItem"
 import '../PortfolioItem/PortfolioItem.css'
-import PortfolioItemRight from "../PortfolioItemRight/PortfolioItemRight"
-import '../PortfolioItemRight/PortfolioItemRight.css'
 
 const portfolioList = (props) => {
   let portfolioList = null;
